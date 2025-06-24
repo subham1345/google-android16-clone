@@ -1,0 +1,108 @@
+* {
+  font-family: Google Sans, Arial, Helvetica, sans-serif;
+}
+
+.subscribe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.con {
+  padding: 10px 30px;
+  display: flex;
+  background-color: #F8F9FA;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap; /* Allow items to wrap on small screens */
+}
+
+.subscribe-content {
+  max-width: 900px;
+  text-align: center; /* Center text for better mobile readability */
+}
+
+.subscribe-content h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subscribe-content p {
+  font-size: 16px;
+  color: #5f6368;
+  margin-bottom: 20px;
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #1558b0;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .con {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 15px;
+  }
+
+  .subscribe-content h1 {
+    font-size: 28px;
+  }
+
+  .subscribe-content p {
+    font-size: 14px;
+  }
+
+  .subscribe-button {
+    width: 100%; /* Make button full width for easier tapping */
+    font-size: 18px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subscribe-content h1 {
+    font-size: 22px;
+    text-align: start;
+    line-height: 32px;
+  }
+
+  .subscribe-content p {
+    font-size: 18px;
+    width: 280px;
+    text-align: start;
+   
+  }
+
+  .con {
+    gap: 15px;
+    line-height: 28px;
+  }
+  .subscribe-button{
+    width: 270px;
+     padding: 14px 30px;
+  font-size: 16px;
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+}

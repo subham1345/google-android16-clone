@@ -1,0 +1,20 @@
+.text-pagedata {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+  .text-pagedata {
+    font-size: 18px;
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-pagedata {
+    font-size: 34px;
+    margin-top: 50px;
+  }
+}

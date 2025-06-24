@@ -1,0 +1,100 @@
+.footer {
+  background: #f8f9fa;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px; /* Add padding for spacing */
+  box-sizing: border-box;
+  /* text-align: center;  */
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center columns horizontally */
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  flex: 1 1 180px;
+  min-width: 150px;
+  max-width: 220px; /* Limit max width for neater columns */
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #202124;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.footer-column li {
+  margin-bottom: 18px;
+}
+
+.footer-column a {
+  
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+ 
+}
+
+.google-logo {
+  font-weight: bold;
+  font-size: 16px;
+  color: #202124;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-left,
+  .footer-right a{
+    justify-content: center;
+  }
+}

@@ -1,0 +1,38 @@
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.feature-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  margin: 40px;
+}
+
+.feature-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.feature-content {
+  padding: 16px;
+  text-align: left;
+}
+
+.feature-content h3 {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #202124;
+}
+
+.feature-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #5f6368;
+}
