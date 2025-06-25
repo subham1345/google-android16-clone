@@ -2,6 +2,8 @@ import React from "react";
 import "./SearchInfoCard.css";
 import DeviceGrid from "./DeviceGrid";
 import Card_2searchinfo from "./Card_2searchinfo";
+import GoogleProducts from "./GoogleProducts";
+import Footer from "./pagedata/Footer";
 
 const SearchInfoCard1 = () => {
   return (
@@ -93,6 +95,8 @@ const SearchInfoCard1 = () => {
         </div>
         <button className="btn-support">Learn more</button>
       </div>
+      <GoogleProducts/>
+      <Footer/>
     </>
   );
 };

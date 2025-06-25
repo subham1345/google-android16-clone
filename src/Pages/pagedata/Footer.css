@@ -1,19 +1,19 @@
-.footer {
+/* .footer {
   background: #f8f9fa;
   font-family: sans-serif;
   font-size: 14px;
   color: #333;
   width: 100%;
   margin: 0 auto;
-  padding: 40px 20px; /* Add padding for spacing */
+  padding: 40px 20px; 
   box-sizing: border-box;
-  /* text-align: center;  */
+
 }
 
 .footer-columns {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center columns horizontally */
+  justify-content: center; 
   gap: 40px;
   margin-bottom: 20px;
 }
@@ -21,7 +21,7 @@
 .footer-column {
   flex: 1 1 180px;
   min-width: 150px;
-  max-width: 220px; /* Limit max width for neater columns */
+  max-width: 220px; 
 }
 
 .footer-column h4 {
@@ -79,7 +79,7 @@
   color: #202124;
 }
 
-/* Responsive tweaks */
+
 @media (max-width: 768px) {
   .footer-columns {
     flex-direction: column;
@@ -96,5 +96,87 @@
   .footer-left,
   .footer-right a{
     justify-content: center;
+  }
+} */
+
+/* fotdata css */
+.footer {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+}
+
+.footer-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+  display: block;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #444;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.footer-language-select {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+    margin: 10px 10px;
+    
+  }
+
+  .footer-links {
+    display: none;
+  }
+
+  .footer-links.open {
+    display: block;
+    margin-top: 10px;
   }
 }

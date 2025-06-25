@@ -27,7 +27,7 @@ const SearchAIMode = () => {
       <div className="globe-section">
         <img
           className="globe-logo"
-          src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
+          src="https://www.gstatic.com/marketing-cms/assets/images/82/9c/5e08f4b14c35b84be1821d200793/about-10things-google.png=s128-fcrop64=1,00000000ffffffff-rw"
           alt="Google Logo"
         />
         <h2>Google around the globe</h2>
