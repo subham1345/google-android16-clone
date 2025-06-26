@@ -28,7 +28,7 @@ const GoogleProducts = () => {
           style={{
             borderRadius: "0",
             border: "1px solid #ccc",
-            borderRadius:"10px",
+            // borderRadius:"10px",
             padding: "20px 100px",
             outline: "none",
             background: "#fff",

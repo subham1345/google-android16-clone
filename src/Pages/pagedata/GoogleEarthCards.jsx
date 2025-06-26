@@ -1,7 +1,7 @@
 import "./GoogleEarthCards.css";
-// import gImg1 from "./assets/g-img1.png";
-// import gImg2 from "./assets/g-img2.png";
-// import gImg3 from "./assets/g-img3.png";
+import gImg1 from "../../assets/g-img1.png";
+import gImg2 from "../../assets/g-img1.png";
+import gImg3 from "../../assets/g-img1.png";
 
 const cards = [
   {

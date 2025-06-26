@@ -14,7 +14,7 @@ return (
       <Navbar />
       <main>
         <Routes>
-          Redirect from root to /about
+          {/* Redirect from root to /about */}
           <Route path="/" element={<Navigate to="/about" />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
