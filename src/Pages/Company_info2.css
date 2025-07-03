@@ -24,7 +24,7 @@
   padding: 10px 60px;
   font-size: 17px;
   height: 50px;
-  /* width: 10px; */
+
   border-radius: 30px;
   cursor: pointer;
   margin-bottom: 40px;
@@ -34,7 +34,7 @@
   background-color: #204c81;
 }
 
-/* Responsive styles for phone view */
+
 @media (max-width: 600px) {
   .promo-container h1 {
     font-size: 1.5rem;
@@ -42,7 +42,7 @@
 
   .promo-container p {
     font-size: 1rem;
-    /* background-color: #1a73e8; */
+
   }
 
   .promo-button {
@@ -63,7 +63,7 @@
 
 .promo-card {
   width: 400px;
-  /* height: 500px; */
+
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -118,7 +118,7 @@
 
 .text-container2{
   margin: 4px;
-  /* background-color: tomato; */
+
   height: 180px;
   margin-left: 120px;
   margin-top: 90px;
@@ -142,7 +142,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 0;
-  /* margin-top: 20px; */
+
  
 }
 
@@ -159,7 +159,7 @@
   background-color: #1669c1;
 }
 
-/* Responsive styles for .data2 and .text-container2 */
+
 @media (max-width: 600px) {
   .data2 {
     flex-direction: column;
@@ -213,11 +213,8 @@
   box-sizing: border-box;
   white-space: nowrap; 
  
-} */
-/* 
-.text-device1{
-  background-color: violet;
-} */
+}
+
 
 .text-Alphabat{
   line-height: 0.2;
@@ -239,7 +236,7 @@
   background-color: #1669c1;
 }
 
-/* Responsive styles for mobile view */
+
 @media (max-width: 600px) {
   .text-device p {
     font-size: 1rem;
@@ -265,7 +262,6 @@
   margin-bottom: 90px;
 }
 
-/* Responsive styles for .support-text */
 @media (max-width: 600px) {
   .support-text {
     width: 75%;

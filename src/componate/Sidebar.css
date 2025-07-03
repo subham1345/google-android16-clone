@@ -3,7 +3,7 @@
 /* Sidebar Container */
 .sidebar {
   position: fixed;
-  display: flex ;
+  display: flex;
   flex-direction: column;
   gap: 20px;
   top: 0;
@@ -14,19 +14,19 @@
   padding: 20px;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-  transform: translateX(-100%); /* Hide off-screen by default */
-  z-index: 1100; /* Above navbar and backdrop */
-overflow-y: auto;
-scroll-behavior: smooth;
+  transform: translateX(-100%); 
+  z-index: 1100; 
+  overflow-y: auto;
+  scroll-behavior: smooth;
 }
 
-/* Sidebar Open State */
+
 .sidebar.open {
   transform: translateX(0);
 }
-.sidebar-logo{
-    width: 100%;
-    height: auto;
+.sidebar-logo {
+  width: 100%;
+  height: auto;
 }
 
 /* Sidebar List */
@@ -53,5 +53,5 @@ scroll-behavior: smooth;
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.4);
-  z-index: 1090; /* Below sidebar but above navbar */
+  z-index: 1090; 
 }

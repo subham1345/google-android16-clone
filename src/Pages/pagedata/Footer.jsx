@@ -164,7 +164,7 @@ const Footer = () => {
               onClick={() => toggleDropdown(index)}
             >
               {section.title}
-              <span className="dropdown-arrow">{openIndex === index ? "−" : "↓"}</span>
+              <span className="dropdown-arrow">{openIndex === index ? "−" : ""}</span>
             </h4>
             <ul className={`footer-links ${openIndex === index ? "open" : ""}`}>
               {section.links.map((link, i) => (

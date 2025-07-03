@@ -19,15 +19,15 @@ const Company_card = () => {
   ];
 
   return (
-    <div className="container">
-      <div className="cards-wrapper">
+    <div className="container31">
+      <div className="cards-wrapper31">
         {cards.map((card, index) => (
-          <div className="card" key={index}>
-            <div className="card-left">
-              <div className="title">{card.title}</div>
-              <div className="icon"><GoArrowRight/></div>
+          <div className="card31" key={index}>
+            <div className="card-left31">
+              <div className="title31">{card.title}</div>
+              <div className="icon31"><GoArrowRight/></div>
             </div>
-            <div className="card-right">
+            <div className="card-right31">
               <img src={card.img} alt={card.title} />
             </div>
           </div>

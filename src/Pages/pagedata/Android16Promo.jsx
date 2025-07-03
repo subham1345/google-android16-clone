@@ -31,7 +31,7 @@ const Android16Promo = () => {
   ];
 
   return (
-    <div className="promo-container">
+    <div className="promo-container12">
       <h1>Android 16 is here</h1>
       <p>
         Android 16 is now rolling out on Pixel devices, with a fresh design and
@@ -39,11 +39,11 @@ const Android16Promo = () => {
       </p>
       <button className="promo-button">Check it out</button>
 
-      <div className="card-container">
+      <div className="card-container12">
         {cards.map((card, index) => (
-          <div className="promo-card" key={index}>
+          <div className="promo-card12" key={index}>
             <img src={card.image} alt={card.category} />
-            <div className="card-content">
+            <div className="card-content12">
               <small>{card.category}</small>
               <p>{card.description}</p>
               <a href={card.link} target="_blank" rel="noopener noreferrer">

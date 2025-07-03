@@ -1,19 +1,19 @@
-.promo-container {
+.promo-container12 {
   width: 100%;
   text-align: center;
 }
 
-.promo-container h1 {
+.promo-container12 h1 {
   font-size: 3.5rem;
   font-weight: 100;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 90px;
 }
 
-.promo-container p {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
+.promo-container12 p {
+  font-size: 1.3rem;
+  margin-bottom: 60px;
   color: #555;
- 
 }
 
 .promo-button {
@@ -27,6 +27,7 @@
   border-radius: 30px;
   cursor: pointer;
   margin-bottom: 40px;
+  margin-top: -20px;
 }
 
 .promo-button:hover {
@@ -35,11 +36,11 @@
 
 /* Responsive styles for phone view */
 @media (max-width: 600px) {
-  .promo-container h1 {
+  .promo-container12 h1 {
     font-size: 1.5rem;
   }
 
-  .promo-container p {
+  .promo-container12 p {
     font-size: 1rem;
     /* background-color: #1a73e8; */
   }
@@ -52,17 +53,18 @@
   }
 }
 
-.card-container {
+.card-container12 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
-.promo-card {
+.promo-card12 {
   width: 400px;
-  /* height: 500px; */
+  height: 440px;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -70,32 +72,35 @@
   background: #fff;
 }
 
-.promo-card img {
+.promo-card12 img {
   width: 100%;
- 
   object-fit: cover;
 }
 
-.card-content {
-  padding: 15px;
-  margin: 10px;
+.card-content12 {
+  /* background-color: #1a73e8; */
 }
 
-.card-content small {
+.card-content12 small {
   display: block;
   color: #888;
   font-weight: bold;
   margin-bottom: 8px;
+  margin-left: 15px;
+  margin-top: 10px;
 }
 
-.card-content p {
-  margin: 0 0 10px 0;
+.card-content12 p {
+
+  margin: 0 15px;
   color: #333;
+  line-height: 1.5;
 }
 
-.card-content a {
+.card-content12 a {
   color: #1a73e8;
   font-size: 1.2rem;
   text-decoration: none;
-  float:right;
+  float: right;
+  margin: 0 15px 0 0;
 }

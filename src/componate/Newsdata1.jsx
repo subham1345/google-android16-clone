@@ -12,13 +12,13 @@ const Newsdata1 = () => {
           display: "flex",
           flexDirection: "row",
           gap: "10px",
-          // backgroundColor: "blue",
+          
           margin: "0 auto",
-          width: "100%", // ✅ Ensure full width
+          width: "100%", 
           maxWidth: "1350px",
           justifyContent: "center",
           alignItems: "center",
-          height: "700px", // Set a fixed height for the container
+          height: "700px", 
         }}
       >
         {/* RED BOX */}
@@ -29,9 +29,9 @@ const Newsdata1 = () => {
             overflow: "hidden",
             height: "700px",
             borderRadius: "8px",
-            // backgroundColor: "red",
-            width: "100%", // Ensure it fills the container
-            // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+            
+            width: "100%", 
+           
           }}
         >
           {/* Image behind */}
@@ -57,17 +57,17 @@ const Newsdata1 = () => {
           <div
             style={{
               position: "absolute",
-              bottom: "0px", // slightly more offset for visual balance
-              right: "0px", // add spacing from the edge
+              bottom: "0px", 
+              right: "0px", 
               zIndex: 2,
               color: "#000",
-              // more natural for paragraph text
+             
               padding: "20px 24px",
-              borderRadius: "12px 0 0 0", // Only top-left corner rounded
+              borderRadius: "12px 0 0 0",
               backgroundColor: "white",
               border: "1px solid #ccc",
               boxShadow: "0 6px 12px rgba(0, 0, 0, 0.15)",
-              width: "calc(100% - 40px)", // padding both sides (20px * 2)
+              width: "calc(100% - 40px)", 
               maxWidth: "700px",
             }}
           >
@@ -100,7 +100,7 @@ const Newsdata1 = () => {
             justifyContent: "center",
             alignItems: "center",
             gap: "20px",
-            overflowY: "auto", // ✅ allow scroll if content exceeds height
+            overflowY: "auto", 
           }}
         >
           {/* Card 1 */}

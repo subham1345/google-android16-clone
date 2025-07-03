@@ -4,6 +4,7 @@ import "./Navbar.css";
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Sidebar from "./Sidebar";
+import gimg from "../assets/google-logo.png"; // Adjust the path as necessary
 
 const Navbar = () => {
   const [toggleSidebar, setToggleSidebar] = useState(false);
@@ -26,19 +27,20 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-logo">
-          <i>
+          <i style={{ cursor: "pointer",padding: "10px" }}>
             <RxHamburgerMenu
               size={25}
               onClick={() => setToggleSidebar(!toggleSidebar)}
             />
           </i>
           <NavLink to="/about">
-            <span className="g-blue">G</span>
+          <img src={gimg} alt="Google" style={{ width: "100px", height: "auto", margin: "0 10px" }}/>
+            {/* <span className="g-blue">G</span>
             <span className="o-red">o</span>
             <span className="o-yellow">o</span>
             <span className="g-blue">g</span>
             <span className="l-green">l</span>
-            <span className="e-red">e</span>
+            <span className="e-red">e</span> */}
           </NavLink>
         </div>
         <ul className="navbar-links">

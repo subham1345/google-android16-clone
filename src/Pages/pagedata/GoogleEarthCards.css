@@ -1,12 +1,12 @@
 .earth-container {
-  padding: 40px 80px;
+  padding: 20px 70px;
   font-family: Arial, sans-serif;
 }
 
 .card-grid {
   display: flex;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   flex-wrap: wrap;
 }
 
@@ -15,13 +15,17 @@
   border-radius: 10px;
   overflow: hidden;
   width: 30%;
-  min-width: 280px;
+  min-width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 360px;
 }
 
 .card-text {
-  padding: 20px;
+  padding: 40px;
+  line-height: 1.7;
 }
 
 .card-tag {
@@ -38,7 +42,7 @@
 
 .card img {
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
 }
 
@@ -59,11 +63,13 @@
 
 .subscribe-right {
   flex: 1;
+  margin-left: 200px;
 }
 
 .subscribe-right p {
   font-size: 20px;
   margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 .subscribe-right .green {
@@ -77,8 +83,8 @@
 }
 
 .form input {
-  flex: 1;
   padding: 10px;
+  width: 350px;
   border-radius: 6px;
   border: 1px solid #ccc;
   font-size: 16px;
@@ -90,11 +96,95 @@
   border: none;
   padding: 10px 16px;
   font-size: 16px;
-  border-radius: 6px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
 small {
   font-size: 12px;
   color: #666;
+  margin-left: 65px;
+  margin-top: 50px;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .earth-container {
+    padding: 20px 10px;
+  }
+  .card {
+    width: 45%;
+    min-width: 220px;
+    height: 340px;
+  }
+  .card-text {
+    padding: 20px;
+  }
+  .subscribe-box {
+    flex-direction: column;
+    padding: 30px 15px;
+    align-items: flex-start;
+  }
+  .subscribe-left img {
+    width: 100px;
+  }
+  .subscribe-right {
+    margin-left: 0;
+    width: 100%;
+  }
+  .subscribe-right p {
+    margin-left: 0;
+    font-size: 18px;
+  }
+  .form input {
+    width: 100%;
+    min-width: 0;
+  }
+  small {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .earth-container {
+    padding: 10px 2vw;
+  }
+  .card-grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .card {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+  .card-text {
+    padding: 15px;
+  }
+  .card img {
+    height: 160px;
+  }
+  .subscribe-box {
+    padding: 20px 5px;
+    gap: 10px;
+  }
+  .subscribe-left img {
+    width: 70px;
+  }
+  .subscribe-right p {
+    font-size: 16px;
+  }
+  .form {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .form input,
+  .form button {
+    width: 100%;
+    font-size: 15px;
+  }
+  small {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }

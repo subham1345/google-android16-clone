@@ -17,7 +17,7 @@
   overflow: hidden;
   background: #fff;
   border-radius: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   flex-shrink: 0;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .text-container {
-  margin-left: 40px;
+  margin-left: 50px;
   max-width: 500px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .text-container h1 {
-  font-size: 36px;
+  font-size: 46px;
   font-weight: 500;
   margin-bottom: 16px;
 }
@@ -101,9 +101,9 @@
   }
   .text-container h1 {
     font-size: 24px;
-     width: 80%;
-     padding: 10px 22px;
-     /* margin-right: 20px; */
+    width: 80%;
+    padding: 10px 22px;
+    /* margin-right: 20px; */
   }
   .text-container p {
     font-size: 15px;
@@ -113,32 +113,34 @@
   .text-container1 {
     font-size: 28px;
     margin: 32px 40px;
-     width: 80%;
+    width: 80%;
   }
-  .button{
+  .button {
     margin-left: 80px;
   }
-  .data1{
-      /* width: 100%;
+  .data1 {
+    /* width: 100%;
       height: 50%; */
-      background-color: #1a73e8;
+    background-color: #1a73e8;
   }
 }
-.data2{
+.data2 {
   display: flex;
   justify-content: space-around;
   background-color: #f8f9fa;
+  /* gap: 0px; */
 }
 
-.text-container2{
+.text-container2 {
   margin: 4px;
   /* background-color: tomato; */
   height: 180px;
   margin-left: 120px;
   margin-top: 90px;
 }
- .image-container2{
-   width: 500px;
+
+.image-container21 {
+  width: 500px;
   height: 400px;
   display: flex;
   align-items: center;
@@ -146,11 +148,12 @@
   overflow: hidden;
   background: #fff;
   border-radius: 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  flex-shrink: 0;
- }
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  /* flex-shrink: 0; */
+}
 
-.image-container2 img {
+.image-container21 img {
+  background: #fff;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -158,14 +161,15 @@
   margin-top: 20px;
 }
 
-.text-container2 button{
+.text-container2 button {
   background-color: #1a73e8;
   color: white;
-  padding: 12px 24px;
+  padding: 15px 28px;
   border: none;
   border-radius: 24px;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 20px;
 }
 .text-container2 button:hover {
   background-color: #1669c1;
@@ -186,32 +190,36 @@
     width: 90%;
     text-align: center;
   }
-  .image-container2{
+  .image-container2 {
     order: 2;
     width: 100%;
     max-width: 500px;
     height: 300px;
     margin-bottom: 24px;
   }
-
 }
-.support-text {
+.support-text1 {
+  width: 70%;
+  margin-left: 200px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   display: flex;
-  justify-content: space-evenly; 
-  align-items: center; 
+  justify-content: space-between;
+  align-items: center;
   padding: 20px 40px;
   margin-top: 90px;
   background-color: #f8f9fa;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  border: #f8f9fa 1px solid;
 }
 
-.support-message p {
+.support-message1 p {
   font-weight: 200;
   font-size: 40px;
   margin: 0;
 }
 
-.support-message p span {
+.support-message1 p span {
   display: block;
   font-size: 17px;
   margin-top: 10px;
@@ -226,5 +234,5 @@
   font-size: 18px;
   cursor: pointer;
   box-sizing: border-box;
-  white-space: nowrap; 
+  white-space: nowrap;
 }

@@ -34,7 +34,7 @@ const SearchAIMode = () => {
         <p>
           Learn more about Google's work and impact around the world.
         </p>
-        <button>Explore</button>
+        <button>See More</button>
       </div>
     </div>
   );

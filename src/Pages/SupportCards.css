@@ -1,108 +1,61 @@
-.container {
+#cards-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 
-.cards-wrapper {
+#cards-wrapper {
   display: flex;
   gap: 60px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
+  
 }
 
-
-.card {
+#card {
   display: flex;
+  justify-content: space-between;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   width: 400px;
   height: 200px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  background: #fff;
-  transition: box-shadow 0.2s;
 }
 
-.card-left {
-  flex: 1;
-  padding: 16px;
+#card-text {
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.title {
-  font-size: 18px;
-  font-weight: 500;
+#card-text h3 {
+  margin: 0;
+  font-weight: 100;
 }
 
-.icon {
+#external-link {
   font-size: 20px;
-  color: #4285f4;
+  text-decoration: none;
+  color: #1a73e8;
 }
 
-.card-right img {
+#card-image img {
+  width: 150px;
   height: 100%;
   object-fit: cover;
 }
 
-.jump-button button {
-  margin-top: 30px;
+#jump-btn {
+  margin-top: 40px;
+  padding: 12px 24px;
+  color: rgb(80, 80, 231);
   background-color: #e8f0fe;
   border: none;
-  padding: 10px 20px;
-  border-radius: 30px;
-  color: #1a73e8;
-  font-weight: 700;
+  border-radius: 999px;
+  font-size: 16px;
   cursor: pointer;
-  width: 200px;
-  height: 50px;
 }
 
-/* Responsive styles */
-@media (max-width: 900px) {
-  .cards-wrapper {
-    gap: 30px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .card {
-    width: 90vw;
-    max-width: 400px;
-    height: 180px;
-  }
-}
 
-@media (max-width: 600px) {
-  .card {
-    flex-direction: row;
-    width: 95vw;
-    max-width: 90%;
-    height: 200px;
-    min-height: 120px;
-  }
-  .card-right {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 40%;
-  }
-  .card-right img {
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-  }
-  .card-left {
-    width: 60%;
-    padding: 12px;
-  }
-  .jump-button button {
-    width: 100%;
-    min-width: 0;
-    margin-top: 16px;
-    height: 44px;
-    font-size: 16px;
-  }
-}

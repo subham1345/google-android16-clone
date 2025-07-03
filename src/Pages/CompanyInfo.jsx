@@ -11,19 +11,19 @@ const CompanyInfo = () => {
         style={{
           objectFit: "cover",
           width: "100%",
-          maxHeight: "300px",
+          maxHeight: "455px",
           height: "auto",
           borderRadius: "8px"
         }}
       />
       <p
         style={{
-          fontSize: "clamp(2rem, 6vw, 52px)",
+          fontSize: "58px",
           fontWeight: "400",
           lineHeight: "1.3",
           textAlign: "center",
           fontFamily: "'Google Sans', sans-serif",
-          margin: "24px 8px"
+          margin: "48px 8px"
         }}
       >
         Our mission is to{" "}

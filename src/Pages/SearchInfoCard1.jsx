@@ -4,6 +4,7 @@ import DeviceGrid from "./DeviceGrid";
 import Card_2searchinfo from "./Card_2searchinfo";
 import GoogleProducts from "./GoogleProducts";
 import Footer from "./pagedata/Footer";
+import NewWaydata from "./NewWaydata";
 
 const SearchInfoCard1 = () => {
   return (
@@ -27,15 +28,18 @@ const SearchInfoCard1 = () => {
       <div className="text-container1">
         New ways to learn, explore and create
       </div>
+
+      <NewWaydata/>
+
       <div className="data2">
         <div className="text-container2">
-          <h1 style={{ fontWeight: "100" }}>Chat with Gemini</h1>
-          <p>
+          <h1 style={{ fontWeight: "100",fontSize:"48px",padding:"10px" }}>Chat with Gemini</h1>
+          <p style={{padding:"8px"}}>
             Start writing, planning and learning with your AI-powered assistant.
           </p>
           <button>Ask away</button>
         </div>
-        <div className="image-container2">
+        <div className="image-container21">
           <img
             src="https://www.gstatic.com/marketing-cms/assets/images/d0/17/a00d288648ceb5ce464c3f2008ae/about-products-2up-promo-chat-with-gemini.jpg=n-w1033-h752-fcrop64=1,038f0000fc44ffff-rw"
             alt="How Google Search works"
@@ -85,12 +89,12 @@ const SearchInfoCard1 = () => {
           <img src="https://www.gstatic.com/marketing-cms/assets/images/f7/af/77cccefd4502a1be0c696e28021b/about-products-2up-promo-ai-in-our-products.jpg=n-w1033-h752-fcrop64=1,038f0000fc44ffff-rw" />
         </div>
       </div>
-      <div className="support-text">
-        <div className="support-message">
+      <div className="support-text1">
+        <div className="support-message1">
           <p>
-            Get accessibility support,
+            Get accessibility support
             <br />
-            <span>Browse topics or connect with our specialists.</span>
+            <span style={{color:"#5f6368"}}>Browse topics or connect with our specialists.</span>
           </p>
         </div>
         <button className="btn-support">Learn more</button>

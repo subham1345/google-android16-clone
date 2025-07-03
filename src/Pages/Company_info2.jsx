@@ -2,6 +2,8 @@ import React from "react";
 import "./Company_info2.css";
 import { FiExternalLink } from "react-icons/fi";
 import DeviceGrid2 from "./DeviceGrid2";
+import Outreach from "./Outreach";
+// import Outreach from "./Outreach.jsx";
 import Footer from "./pagedata/Footer";
 
 const Company_info2 = () => {
@@ -94,6 +96,7 @@ const Company_info2 = () => {
           <div style={{display: "flex", justifyContent: "center",marginTop:"45px"}}>
             <button>Get Started</button>
           </div>
+          {/* <Outreach/> */}
       </div>
        <div className="support-text" >
         <div className="support-message">

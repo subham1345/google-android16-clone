@@ -12,7 +12,7 @@
   background: #f8f9fa;
   padding: 40px 20px;
   height: 400px;
- 
+ margin-top: 60px;
   
 }
 
@@ -56,17 +56,18 @@
 
 /* Globe section */
 .globe-section {
-  padding: 60px 20px;
+  padding: 100px 0px;
 }
 
 .globe-logo {
-  width: 90px;
+  width: 70px;
   margin-bottom: 1px;
 }
 
 .globe-section h2 {
-  font-size: 3.5rem;
-  margin-bottom: 10px;
+  font-size: 3.2rem;
+  margin: 20px 20px;
+  font-weight: 100;
 }
 
 .globe-section p {
@@ -79,10 +80,12 @@
   background: #1a73e8;
   color: white;
   border: none;
-  padding: 10px 24px;
-  border-radius: 20px;
+  padding: 14px 36px;
+  border-radius: 40px;
   cursor: pointer;
+  font-size: 14px;
   font-weight: 500;
+  margin: 10px 10px;
 }
 
 /* Responsive styles for mobile */
@@ -93,8 +96,8 @@
   }
 
   .globe-logo {
-    width: 100px;
-    margin: 40px;
+    width: 50px;
+    margin: 140px;
     margin-bottom: 0px;
   }
 

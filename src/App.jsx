@@ -13,8 +13,7 @@ return (
     <Router>
       <Navbar />
       <main>
-        <Routes>
-          {/* Redirect from root to /about */}
+        <Routes> 
           <Route path="/" element={<Navigate to="/about" />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
