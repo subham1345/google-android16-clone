@@ -4,7 +4,8 @@ import { FiExternalLink } from "react-icons/fi";
 import DeviceGrid2 from "./DeviceGrid2";
 import Outreach from "./Outreach";
 // import Outreach from "./Outreach.jsx";
-import Footer from "./pagedata/Footer";
+import Footer from "../Pages/pagedata/Footer";
+import Company_info7 from "../Pages/Company_info7";
 
 const Company_info2 = () => {
   const cards = [
@@ -62,22 +63,35 @@ const Company_info2 = () => {
             “We continue to approach the AI opportunity boldly, with a sense of
             excitement. We’re also making sure we do it responsibly.”
           </h1>
-          <p>Sundar Pichai, CEO of Google and Alphabet</p>
+          <p style={{ color: "gray" }}>
+            Sundar Pichai, CEO of Google and Alphabet
+          </p>
           <button>Remove more from our ceo</button>
         </div>
         <div className="image-container2">
           <img src="https://www.gstatic.com/marketing-cms/assets/images/e7/35/bf4f7c844b89a69e972e0770b041/about-companyinfo-spquote.png=n-w1004-h730-fcrop64=1,00000ac0fffff57f-rw" />
         </div>
       </div>
-      <div className="text-device1" style={{ textAlign: "center" }}>
-        <p style={{ fontSize: "38px" }}> Why we do what we do</p>
+
+      <div
+        className="text-device1"
+        style={{
+          textAlign: "center",
+          display: "flex",
+          flexDirection: "column",
+          gap: "20px",
+        }}
+      >
+        <p style={{ fontSize: "48px" }}> Why we do what we do</p>
         <p>
           {" "}
           From the beginning, our passion for building technology for everyone
           has guided our work.
         </p>
       </div>
+
       <DeviceGrid2 />
+
       <div className="search-info-container">
         <div className="image-container">
           <img
@@ -94,11 +108,32 @@ const Company_info2 = () => {
           <button>Get Started</button>
         </div>
       </div>
+
+      <div
+        className="text-device1"
+        style={{
+          textAlign: "center",
+          display: "flex",
+          flexDirection: "column",
+          gap: "20px",
+          padding:'20px 0'
+        }}
+      >
+        <p style={{ fontSize: "48px" }}> Outreach and initiatives</p>
+        <p>
+          {" "}
+         Dive deeper into our efforts across sustainability, accessibility and community engagement.
+        </p>
+        <Company_info7 />
+      </div>
+
       <div className="text-Alphabat">
         <p style={{ textAlign: "center", fontSize: "48px" }}>
           Alphabet Investor Relations
         </p>
-        <p style={{ textAlign: "center", fontWeight: "100" ,marginTop: "20px"}}>
+        <p
+          style={{ textAlign: "center", fontWeight: "100", marginTop: "20px" }}
+        >
           Read our latest Earnings reports and other updates.
         </p>
         <div
