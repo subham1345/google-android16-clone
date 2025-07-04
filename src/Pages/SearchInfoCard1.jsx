@@ -64,7 +64,7 @@ const SearchInfoCard1 = () => {
                 From phones and watches, to earbuds and the tablet, get
                 personalized help from Pixel throughout your day.
               </p>
-              <button>Dive into</button>
+              <button>Dive in</button>
             </div>
           </div>
           <div className="text-container1">
@@ -76,9 +76,9 @@ const SearchInfoCard1 = () => {
         </div>
       </div>
       <Card_2searchinfo />
-      <div className="data2">
-        <div className="text-container2">
-          <h1 style={{ fontWeight: "200", fontSize: "50px" }}>
+      <div className="data22">
+        <div className="text-container22">
+          <h1 >
             AI in our products
           </h1>
           <p>
@@ -87,7 +87,7 @@ const SearchInfoCard1 = () => {
           </p>
           <button>Learn More</button>
         </div>
-        <div className="image-container2">
+        <div className="image-container21">
           <img src="https://www.gstatic.com/marketing-cms/assets/images/f7/af/77cccefd4502a1be0c696e28021b/about-products-2up-promo-ai-in-our-products.jpg=n-w1033-h752-fcrop64=1,038f0000fc44ffff-rw" />
         </div>
       </div>

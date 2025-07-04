@@ -58,7 +58,7 @@ const Company_info2 = () => {
       </div>
       <div className="data2">
         <div className="text-container2">
-          <h1 >
+          <h1>
             “We continue to approach the AI opportunity boldly, with a sense of
             excitement. We’re also making sure we do it responsibly.”
           </h1>
@@ -69,9 +69,13 @@ const Company_info2 = () => {
           <img src="https://www.gstatic.com/marketing-cms/assets/images/e7/35/bf4f7c844b89a69e972e0770b041/about-companyinfo-spquote.png=n-w1004-h730-fcrop64=1,00000ac0fffff57f-rw" />
         </div>
       </div>
-      <div className="text-device1" style={{textAlign:"center",}} >
-        <p style={{fontSize:"38px"}}>  Why we do what we do</p>
-        <p> From the beginning, our passion for building technology for everyone has guided our work.</p>
+      <div className="text-device1" style={{ textAlign: "center" }}>
+        <p style={{ fontSize: "38px" }}> Why we do what we do</p>
+        <p>
+          {" "}
+          From the beginning, our passion for building technology for everyone
+          has guided our work.
+        </p>
       </div>
       <DeviceGrid2 />
       <div className="search-info-container">
@@ -84,31 +88,46 @@ const Company_info2 = () => {
         <div className="text-container">
           <h1>Grow with Google</h1>
           <p>
-            Find training and resources to help you build your skills, career or business.
+            Find training and resources to help you build your skills, career or
+            business.
           </p>
           <button>Get Started</button>
         </div>
       </div>
       <div className="text-Alphabat">
-          <p style={{textAlign:"center", fontSize:"48px"}}>Alphabet Investor Relations</p>
-          <p style={{textAlign:"center",fontWeight:"100"}}>Read our latest Earnings reports and other updates.
-          </p>
-          <div style={{display: "flex", justifyContent: "center",marginTop:"45px"}}>
-            <button>Get Started</button>
-          </div>
-          {/* <Outreach/> */}
+        <p style={{ textAlign: "center", fontSize: "48px" }}>
+          Alphabet Investor Relations
+        </p>
+        <p style={{ textAlign: "center", fontWeight: "100" ,marginTop: "20px"}}>
+          Read our latest Earnings reports and other updates.
+        </p>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginTop: "45px",
+          }}
+        >
+          <button>Learn more</button>
+        </div>
+        {/* <Outreach/> */}
       </div>
-       <div className="support-text" >
-        <div className="support-message">
+      <div className="support-text145">
+        <div className="support-message145">
           <p>
             Get the latest news from Google in your inbox
             <br />
-            <span>Sign up to receive top stories from the week — from product announcements, to everyday tips and tricks.</span>
+            <span>
+              Sign up to receive top stories from the week — from product
+              announcements, to everyday tips and tricks.
+            </span>
           </p>
         </div>
-        <button className="btn-support">Subscribe</button>
+        <div>
+          <button className="btn-support145">Subscribe</button>
+        </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
