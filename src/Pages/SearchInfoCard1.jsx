@@ -3,7 +3,7 @@ import "./SearchInfoCard.css";
 import DeviceGrid from "./DeviceGrid";
 import Card_2searchinfo from "./Card_2searchinfo";
 import GoogleProducts from "./GoogleProducts";
-import Footer from "./pagedata/Footer";
+import Footer from "../Pages/pagedata/Footer";
 import NewWaydata from "./NewWaydata";
 
 const SearchInfoCard1 = () => {
@@ -29,12 +29,14 @@ const SearchInfoCard1 = () => {
         New ways to learn, explore and create
       </div>
 
-      <NewWaydata/>
+      <NewWaydata />
 
       <div className="data2">
         <div className="text-container2">
-          <h1 style={{ fontWeight: "100",fontSize:"48px",padding:"10px" }}>Chat with Gemini</h1>
-          <p style={{padding:"8px"}}>
+          <h1 style={{ fontWeight: "100", fontSize: "48px", padding: "10px" }}>
+            Chat with Gemini
+          </h1>
+          <p style={{ padding: "8px" }}>
             Start writing, planning and learning with your AI-powered assistant.
           </p>
           <button>Ask away</button>
@@ -47,7 +49,7 @@ const SearchInfoCard1 = () => {
         </div>
       </div>
       <div className="text-container1">All things Android</div>
-      <div>
+      <div >
         <DeviceGrid />
         <div>
           <div className="search-info-container">
@@ -94,13 +96,15 @@ const SearchInfoCard1 = () => {
           <p>
             Get accessibility support
             <br />
-            <span style={{color:"#5f6368"}}>Browse topics or connect with our specialists.</span>
+            <span style={{ color: "#5f6368" }}>
+              Browse topics or connect with our specialists.
+            </span>
           </p>
         </div>
         <button className="btn-support">Learn more</button>
       </div>
-      <GoogleProducts/>
-      <Footer/>
+      <GoogleProducts />
+      <Footer />
     </>
   );
 };

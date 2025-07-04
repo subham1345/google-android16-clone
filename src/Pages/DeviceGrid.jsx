@@ -1,51 +1,93 @@
-import React from 'react';
-import './DeviceGrid.css';
+import React from "react";
+import "./DeviceGrid.css";
 import { FiExternalLink } from "react-icons/fi";
+import { FiTablet, FiMonitor } from "react-icons/fi";
 
 const cards = [
   {
     type: "PHONES",
     description: "Browse foldables, the latest phones with Gemini, and more.",
-    image: "https://www.gstatic.com/marketing-cms/assets/images/b9/6d/656644854825a096ebe1f7af62af/about-products-splash-tiles-android-phone.png " ,
+    image:
+      "https://www.gstatic.com/marketing-cms/assets/images/b9/6d/656644854825a096ebe1f7af62af/about-products-splash-tiles-android-phone.png ",
     bg: "bg-blue",
-    link: "#"
+    link: "#",
   },
   {
     type: "TABLETS",
-    description: "Multitask, play games and discover new apps, all on a bigger screen.",
-    image: "https://www.gstatic.com/marketing-cms/assets/images/9a/39/e9a524c748d88a9f8ffa9cb09213/about-products-splash-tiles-android-tablet.png",
+    description: "Multitask, play games and discover new apps...",
+    icon: <FiTablet size={60} />, // ✅ Added
     bg: "bg-green",
-    link: "#"
+    link: "#",
   },
   {
     type: "AUTO",
-    description: "Navigate smoothly, communicate easily and stay entertained on the road.",
-    image: "https://www.gstatic.com/marketing-cms/assets/images/2c/a0/28b7a69443e38f0ef1db867c7864/about-products-splash-tiles-android-car.png",
+    description: "Navigate smoothly, communicate easily...",
+    icon: <FiMonitor size={60} />, // ✅ Added
     bg: "bg-red",
-    link: "#"
+    link: "#",
   },
   {
     type: "WATCHES",
-    description: "Connect to Google apps, and monitor your health and fitness — right from your wrist.",
-    image: "https://www.gstatic.com/marketing-cms/assets/images/c9/05/c079e7a5442d98f55cbe7b102126/about-products-splash-tiles-android-watch.png",
+    description:
+      "Connect to Google apps, and monitor your health and fitness — right from your wrist.",
+    image:
+      "https://www.gstatic.com/marketing-cms/assets/images/c9/05/c079e7a5442d98f55cbe7b102126/about-products-splash-tiles-android-watch.png",
     bg: "bg-yellow",
-    link: "#"
-  }
+    link: "#",
+  },
 ];
 
 const DeviceGrid = () => {
   return (
-    <div className="device-grid">
-      {cards.map((card, index) => (
-        <div className={`device-card ${card.bg}`} key={index}>
-          <img src={card.image} alt={card.type} className="device-img" />
-          <h4>{card.type}</h4>
-          <p>{card.description}</p>
-          <a href={card.link} className="device-link" target="_blank" rel="noopener noreferrer">
-            <FiExternalLink/>
-          </a>
-        </div>
-      ))}
+    <div className="container">
+      <div className="device-grid">
+        {cards.map((card, index) => {
+          const sizeClass =
+            index === 0 || index === 3 ? "card-large" : "card-small"; // Large: 0, 3; Small: 1, 2
+          return (
+            <div
+              className={`device-card ${card.bg} ${sizeClass}`}
+              key={index}
+              style={
+                card.type === "WATCHES"
+                  ? { transform: "translateY(-190px)" }
+                  : {}
+              }
+            >
+              {sizeClass === "card-small" ? (
+                <div className="device-icon">{card.icon}</div>
+              ) : (
+                <div
+                  style={{
+                     
+                    height: "50vh",
+                    display: "flex", // enable flex
+                    justifyContent: "center", // center horizontally
+                    alignItems: "center", // center vertically
+                  }}
+                >
+                  <img
+                    src={card.image}
+                    alt={card.type}
+                    className="deviceImg"
+                  />
+                </div>
+              )}
+
+              <h4>{card.type}</h4>
+              <p>{card.description}</p>
+              <a
+                href={card.link}
+                className="device-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FiExternalLink />
+              </a>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
