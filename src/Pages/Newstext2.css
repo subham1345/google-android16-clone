@@ -1,9 +1,9 @@
 .text-data {
   display: flex;
   background-color: #f8f9fa;
-  margin: 30px 40px 70px 110px;
+  margin: 30px 40px 70px 135px;
   height: 350px;
-  width: 1300px;
+  width: 1250px;
   border-radius: 10px;
   box-shadow: 4px 4px 10px rgb(197, 195, 195);
   /* justify-content: center; */

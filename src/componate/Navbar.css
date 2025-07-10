@@ -76,6 +76,35 @@
   border-bottom: 3px solid #1a73e8;
 }
 
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 15px 5px;
+  font-family: Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar.scrolled {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar.show {
+  transform: translateY(0);
+}
+
+.navbar.hide {
+  transform: translateY(-100%);
+}
+
+
+
 @media screen and (max-width: 768px) {
   .navbar-logo {
     display: flex; 
