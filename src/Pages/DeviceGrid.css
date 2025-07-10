@@ -7,7 +7,7 @@
 .device-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr; /* ✅ 2 rows of equal height */
+  grid-template-rows: 1fr 1fr; 
   gap: 0;
   padding: 0;
   margin: 0px 40px;
@@ -16,7 +16,7 @@
 }
 
 .device-card {
-  height: 100%; /* ✅ fills its grid cell */
+  height: 100%; 
   padding: 20px;
   border-radius: 12px;
   text-align: center;
@@ -57,7 +57,7 @@
   text-decoration: none;
 }
 
-/* Background colors matching your design */
+
 .bg-blue {
   background-color: #e8f0fe;
 }
@@ -76,7 +76,7 @@
 
 
 .card-small {
-  height: 300px; /* Let content (image) define height */
+  height: 300px; 
   overflow: visible;
 }
 

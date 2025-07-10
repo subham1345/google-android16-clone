@@ -1,6 +1,6 @@
-import React from 'react';
-import Company_card from './Company_card';
-import Company_info2 from './Company_info2';
+import React from "react";
+import Company_card from "./Company_card";
+import Company_info2 from "./Company_info2";
 
 const CompanyInfo = () => {
   return (
@@ -13,25 +13,29 @@ const CompanyInfo = () => {
           width: "100%",
           maxHeight: "455px",
           height: "auto",
-          borderRadius: "8px"
+          borderRadius: "8px",
         }}
       />
       <p
         style={{
-          fontSize: "58px",
+          fontSize: "clamp(24px, 5vw, 58px)", 
           fontWeight: "400",
           lineHeight: "1.3",
           textAlign: "center",
           fontFamily: "'Google Sans', sans-serif",
-          margin: "48px 8px"
+          margin: "48px 8px",
         }}
       >
-        Our mission is to{" "}
-        <span style={{ color: "#4285F4" }}>organize</span> the <br />
-        world’s <span style={{ color: "#EA4335" }}>information</span> and make it <br />
-        <span style={{ color: "#34A853" }}>universally accessible</span> and <br />
+        Our mission is to <span style={{ color: "#4285F4" }}>organize</span> the
+        <br />
+        world’s <span style={{ color: "#EA4335" }}>information</span> and make
+        it
+        <br />
+        <span style={{ color: "#34A853" }}>universally accessible</span> and
+        <br />
         <span style={{ color: "#FBBC05" }}>useful</span>
       </p>
+
       <div style={{ padding: "0 8px" }}>
         <Company_card />
         <Company_info2 />

@@ -2,6 +2,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Sidebar.css";
+import gimg from "../assets/google-logo.png";
 
 const Sidebar = ({ isOpen, onClose }) => {
   return (
@@ -9,6 +10,7 @@ const Sidebar = ({ isOpen, onClose }) => {
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
        <div className="sidebar-logo">
           <NavLink to="/about"  onClick={onClose}>
+          {/* <img src={gimg} alt="" /> */}
             <span className="g-blue">G</span>
             <span className="o-red">o</span>
             <span className="o-yellow">o</span>

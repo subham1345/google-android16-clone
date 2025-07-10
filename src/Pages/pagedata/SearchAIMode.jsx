@@ -4,7 +4,7 @@ import "./SearchAIMode.css";
 const SearchAIMode = () => {
   return (
     <div className="search-ai-mode">
-      {/* Section 1: Talk with Search in AI Mode */}
+      {/* Section 1: Talk with  */}
       <div className="ai-section">
         <div className="ai-text">
           <h2>Talk with Search in AI Mode</h2>
@@ -23,7 +23,7 @@ const SearchAIMode = () => {
         </div>
       </div>
 
-      {/* Section 2: Google around the globe */}
+      {/* Section 2: Google around  */}
       <div className="globe-section">
         <img
           className="globe-logo"

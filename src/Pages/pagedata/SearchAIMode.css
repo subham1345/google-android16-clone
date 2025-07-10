@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-/* AI Mode section */
+
 .ai-section {
   display: flex;
   flex-wrap: wrap;
@@ -12,8 +12,7 @@
   background: #f8f9fa;
   padding: 40px 20px;
   height: 400px;
- margin-top: 60px;
-  
+  margin-top: 60px;
 }
 
 .ai-text {
@@ -42,6 +41,12 @@
   border-radius: 20px;
   cursor: pointer;
   font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.ai-text button:hover {
+  background: #1967d2;
+  color: #fff;
 }
 
 .ai-image {
@@ -54,7 +59,7 @@
   border-radius: 8px;
 }
 
-/* Globe section */
+
 .globe-section {
   padding: 100px 0px;
 }
@@ -87,18 +92,80 @@
   font-weight: 500;
   margin: 10px 10px;
 }
+.globe-section button:hover {
+  background: #155ab6;
+  color: #fff;
+}
 
 /* Responsive styles for mobile */
 @media (max-width: 600px) {
+  .ai-section {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 5px;
+    margin-top: 20px;
+  }
+
+  .ai-text {
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 24px;
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .ai-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+
+  .ai-text p {
+    color: #555;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    /* margin-right: 20px; */
+    width: 80%;
+  }
+
+  .ai-text button {
+    background: #e8f0fe;
+    color: #1967d2;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+
+  .ai-text button:hover {
+    background: #1967d2;
+    color: #fff;
+  }
+
+  .ai-image {
+    max-width: 90%;
+    margin: 10px 0;
+  }
+
+  .ai-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
   .globe-section {
     padding: 30px 10px;
     text-align: center;
   }
 
   .globe-logo {
-    width: 50px;
-    margin: 140px;
-    margin-bottom: 0px;
+    width: 70px;
+    height: 70px;
+    margin: 30px auto 20px auto;
+    display: block;
   }
 
   .globe-section h2 {
@@ -107,13 +174,16 @@
   }
 
   .globe-section p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 25px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
   }
 
   .globe-section button {
-    width: 100%;
-    padding: 12px 0;
+    width: 90%;
+    padding: 15px 10px;
     font-size: 1rem;
   }
 }

@@ -48,7 +48,7 @@ const Company_info2 = () => {
               <img src={card.image} alt={card.category} />
               <div className="card-content">
                 <small>{card.category}</small>
-                <p>{card.description}</p>
+                <p style={{fontWeight:"100"}}>{card.description}</p>
                 <a href={card.link} target="_blank" rel="noopener noreferrer">
                   <FiExternalLink />
                 </a>
@@ -147,8 +147,10 @@ const Company_info2 = () => {
         </div>
         {/* <Outreach/> */}
       </div>
-      <div className="support-text145">
-        <div className="support-message145">
+
+
+      <div className="support-text145" >
+        <div className="support-message145" style={{padding: " 0 20px",display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
           <p>
             Get the latest news from Google in your inbox
             <br />

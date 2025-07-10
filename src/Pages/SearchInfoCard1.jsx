@@ -31,9 +31,9 @@ const SearchInfoCard1 = () => {
 
       <NewWaydata />
 
-      <div className="data2">
-        <div className="text-container2">
-          <h1 style={{ fontWeight: "100", fontSize: "48px", padding: "10px" }}>
+      <div className="data22"  >
+        <div className="text-container22">
+          <h1 >
             Chat with Gemini
           </h1>
           <p style={{ padding: "8px" }}>
@@ -48,6 +48,8 @@ const SearchInfoCard1 = () => {
           />
         </div>
       </div>
+
+
       <div className="text-container1">All things Android</div>
       <div >
         <DeviceGrid />
@@ -69,14 +71,16 @@ const SearchInfoCard1 = () => {
           </div>
           <div className="text-container1">
             Picture this
-            <p style={{ fontSize: "20px" }}>
+            <p style={{ fontSize: "20px",marginTop: "10px" }}>
               Create scroll-stoppers with Google Photos AI editing tools.
             </p>
           </div>
         </div>
       </div>
       <Card_2searchinfo />
-      <div className="data22">
+
+
+      <div className="data22" >
         <div className="text-container22">
           <h1 >
             AI in our products
@@ -91,8 +95,10 @@ const SearchInfoCard1 = () => {
           <img src="https://www.gstatic.com/marketing-cms/assets/images/f7/af/77cccefd4502a1be0c696e28021b/about-products-2up-promo-ai-in-our-products.jpg=n-w1033-h752-fcrop64=1,038f0000fc44ffff-rw" />
         </div>
       </div>
+
+
       <div className="support-text1">
-        <div className="support-message1">
+        <div className="support-message1" style={{padding: " 0 20px",display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
           <p>
             Get accessibility support
             <br />
@@ -103,6 +109,8 @@ const SearchInfoCard1 = () => {
         </div>
         <button className="btn-support">Learn more</button>
       </div>
+
+
       <GoogleProducts />
       <Footer />
     </>

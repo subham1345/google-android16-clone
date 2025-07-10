@@ -14,43 +14,47 @@
 .con {
   padding: 30px 50px;
   display: flex;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   justify-content: center;
   align-items: center;
-  gap: 50px;
-  flex-wrap: wrap; /* Allow items to wrap on small screens */
+  gap: 100px;
+  border-radius: 10px;
+  flex-wrap: wrap; 
 }
 
 .subscribe-content {
-  max-width: 900px;
-  text-align: center; /* Center text for better mobile readability */
+  max-width: 1000px;
+  /* text-align: center;  */
 }
 
 .subscribe-content h1 {
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 100;
   margin-bottom: 10px;
+ 
 }
 
 .subscribe-content p {
   font-size: 16px;
   color: #5f6368;
   margin-bottom: 20px;
+   margin-top: 10px;
 }
 
 .subscribe-button {
-  padding: 10px 20px;
+  padding: 14px 25px;
   font-size: 16px;
-  background-color: #1a73e8;
-  color: #fff;
-  border: none;
+  background-color: #ffffff;
+  color: #1a73e8;
+  border: 1px solid #040505;
   border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .subscribe-button:hover {
-  background-color: #1558b0;
+  /* background-color: #1558b0; */
+   border: 1px solid #4072f9;
 }
 
 /* Responsive styles for mobile devices */
@@ -70,7 +74,7 @@
   }
 
   .subscribe-button {
-    width: 100%; /* Make button full width for easier tapping */
+    width: 100%; 
     font-size: 18px;
     padding: 12px;
   }
@@ -81,28 +85,36 @@
     font-size: 22px;
     text-align: start;
     line-height: 32px;
+    width: 80%;
+    margin-left: 20px;
   }
 
   .subscribe-content p {
     font-size: 18px;
-    width: 280px;
+    width: 320px;
     text-align: start;
-   
+    margin-left: 20px;
+    margin-right: 10px;
+    /* margin-top: 10px; */
   }
 
   .con {
     gap: 15px;
     line-height: 28px;
   }
-  .subscribe-button{
-    width: 270px;
-     padding: 14px 30px;
-  font-size: 16px;
-  background-color: #1a73e8;
-  color: #fff;
-  border: none;
+  .subscribe-button {
+  padding: 14px 85px;
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #1a73e8;
+  border: 1px solid #040505;
   border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  }
+}
+
+.subscribe-button:hover {
+  /* background-color: #1558b0; */
+   border: 1px solid #4072f9;
+}
 }

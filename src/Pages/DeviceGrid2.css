@@ -9,7 +9,7 @@
 .device-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr; /* ✅ 2 rows of equal height */
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
   padding: 0;
   margin: 0px 40px;
@@ -18,7 +18,7 @@
 }
 
 .device-card {
-  height: 100%; /* ✅ fills its grid cell */
+  height: 100%; 
   padding: 20px;
   border-radius: 12px;
   text-align: center;
@@ -59,7 +59,7 @@
   text-decoration: none;
 }
 
-/* Background colors matching your design */
+
 .bg-blue {
   background-color: #e8f0fe;
 }
@@ -78,7 +78,7 @@
 
 
 .card-small {
-  height: 300px; /* Let content (image) define height */
+  height: 300px; 
   overflow: visible;
 }
 
@@ -95,4 +95,54 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .device-grid {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    height: auto;
+    gap: 20px;
+  }
+
+  .device-card {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .deviceImg {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .device-icon {
+    font-size: 48px;
+    margin-bottom: 12px;
+  }
+
+  .device-card h4 {
+    font-size: 18px;
+  }
+
+  .device-card p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .card-small,
+  .card-large {
+    height: auto;
+  }
+
+  
+  .device-card[style*="translateY"] {
+    transform: none !important;
+  }
 }

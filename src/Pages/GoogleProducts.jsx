@@ -56,34 +56,11 @@ const products = [
 const GoogleProducts = () => {
   return (
     <div className="google-products-container">
-      <div className="" style={{margin: "0 80px"}}>
-        <p
-          style={{ fontSize: "49px", fontWeight: "100", marginBottom: "60px" }}
-        >
-          Google products
-        </p>
+      <div className="container">
+        <p>Google products</p>
         <div className="filter-section">
           <label htmlFor="filter">Filter by:</label>
-          <select
-            id="filter"
-            style={{
-              borderRadius: "0",
-              border: "1px solid #ccc",
-              // borderRadius:"10px",
-              padding: "20px 100px",
-              outline: "none",
-              background: "#fff",
-              appearance: "none",
-              WebkitAppearance: "none",
-              MozAppearance: "none",
-              fontSize: "1rem",
-              marginLeft: "8px",
-              boxShadow: "none",
-              cursor: "pointer",
-              textAlign: "left",
-              // backgroundColor:'blue'
-            }}
-          >
+          <select id="filter" className="filter-select">
             <option style={{ textAlign: "" }}>Featured</option>
             <option>For All</option>
             <option>For Bussines</option>

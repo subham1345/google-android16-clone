@@ -3,8 +3,11 @@
   font-family: Arial, sans-serif;
   color: #202124;
 }
+.video-data h2{
+  margin: 30px 20px;
+}
 
-/* Left main content wrapper */
+
 .left-side1 {
   display: flex;
   max-width: 1200px;
@@ -55,7 +58,7 @@
   margin: 0;
 }
 
-/* More videos section */
+
 
 .morevideo {
   display: flex;

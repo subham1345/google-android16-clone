@@ -71,38 +71,4 @@
   background-color: #d5e5ff;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .gemini-grid {
-    flex-direction: column;
-  }
 
-  .gemini-spacer {
-    display: none;
-  }
-
-  .gemini-content {
-    padding: 10px;
-  }
-
-  .gemini-title {
-    font-size: 20px;
-  }
-
-  .gemini-subtitle {
-    font-size: 16px;
-  }
-  .gemini-button {
-  display: inline-block;
-  padding: 10px 120px;
-  background-color: #e8f0fe;;
-  color: #1967d2;
-  text-decoration: none;
-  border-radius: 20px;
-  border: none;
-  transition: background-color 0.3s ease;
-}
-.gemini-button:hover {
-  background-color: #d5e5ff;
-}
-}

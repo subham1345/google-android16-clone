@@ -17,7 +17,7 @@ const cards = [
     type: "TABLETS",
     description:
       "Discover how we’re using AI to help solve society’s biggest challenges.",
-    icon: <FiTablet size={60} />, // ✅ Added
+    icon: <FiTablet size={60} />,
     bg: "bg-green",
     link: "#",
   },
@@ -25,7 +25,7 @@ const cards = [
     type: "AUTO",
     description:
       "We’re committed to working with governments, companies and communities to create asafe and resilient digital future",
-    icon: <FiMonitor size={60} />, // ✅ Added
+    icon: <FiMonitor size={60} />,
     bg: "bg-red",
     link: "#",
   },
@@ -46,7 +46,7 @@ const DeviceGrid2 = () => {
       <div className="device-grid">
         {cards.map((card, index) => {
           const sizeClass =
-            index === 0 || index === 3 ? "card-large" : "card-small"; // Large: 0, 3; Small: 1, 2
+            index === 0 || index === 3 ? "card-large" : "card-small"; 
           return (
             <div
               className={`device-card ${card.bg} ${sizeClass}`}
@@ -63,9 +63,9 @@ const DeviceGrid2 = () => {
                 <div
                   style={{
                     height: "50vh",
-                    display: "flex", // enable flex
-                    justifyContent: "center", // center horizontally
-                    alignItems: "center", // center vertically
+                    display: "flex", 
+                    justifyContent: "center",
+                    alignItems: "center", 
                   }}
                 >
                   <img src={card.image} alt={card.type} className="deviceImg" />

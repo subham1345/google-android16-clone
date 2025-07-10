@@ -1,4 +1,4 @@
-/* container3131 holds all card31s + button */
+
 .container31 {
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   background-color: #f8f9fa;
 }
 
-/* Wrapper for card31s in a row, wraps on small screens */
+
 .cards-wrapper31 {
   display: flex;
   flex-wrap: wrap;
@@ -16,11 +16,11 @@
   margin-bottom: 40px;
 }
 
-/* Single card31 */
+
 .card31 {
   display: flex;
-  width: 400px;      /* fixed width */
-  height: 200px;     /* fixed height */
+  width: 400px;     
+  height: 200px;     
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -33,7 +33,7 @@
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
-/* Left side: text + icon31 */
+
 .card31-left {
   flex: 1;
   display: flex;
@@ -56,28 +56,28 @@
   align-self: flex-start;
 }
 
-/* Right side: image */
+
 .card31-right {
   flex: 0 0 140px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   height: 100%;
-  /* padding-right: 10px; */
+  
   background: transparent;
   min-width: 0;
   overflow: visible;
-  /* background-color: blue; */
+  
 }
 
 .card31-right img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* or 'contain' */
+  object-fit: cover; 
 }
 
 
-/* Jump button wrapper */
+
 .jump-button {
   margin-top: 20px;
 }

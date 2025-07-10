@@ -35,11 +35,15 @@
 
 @media (max-width: 600px) {
   .promo-container h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .promo-container p {
     font-size: 1rem;
+    margin-top: 20px;
+    /* width: 300px; */
+    align-items: center;
+    /* background-color: #1a73e8; */
   }
 
   .promo-button {
@@ -47,6 +51,13 @@
     font-size: 1rem;
     height: 45px;
     padding: 10px 0;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 10px;
   }
 }
 
@@ -59,12 +70,16 @@
 
 .promo-card {
   width: 400px;
-
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   text-align: left;
   background: #fff;
+  transition: box-shadow 0.2s;
+}
+
+.promo-card:hover {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
 }
 
 .promo-card img {
@@ -173,6 +188,10 @@
     text-align: center;
     font-size: small;
   }
+  .text-container2 button {
+    margin-left: 38px;
+    margin-bottom: 20px;
+  }
   .image-container2 {
     order: 2;
     width: 100%;
@@ -190,16 +209,16 @@
   height: 130px;
   width: 70%;
   margin: 210px;
-  margin-bottom: 120px;
-  margin-top: 100px;
+   /* margin-bottom: 120px; */
+   margin-top: 100px;
   background-color: #f8f9fa;
   border-radius: 5px;
 }
 
 .support-message145 p {
-  font-weight: 100;
-  font-size: 35px;
-  margin: 20px 30px;
+  font-size: 30px;
+  margin-top: 10px;
+  color: black;
 }
 
 .support-message145 p span {
@@ -221,20 +240,20 @@
   cursor: pointer;
   box-sizing: border-box;
   white-space: nowrap;
-  /* box-shadow: 0 2px 8px rgba(224, 226, 227, 0.15); */
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .btn-support145:hover {
-  box-shadow: 1px 1px 1px 1px rgba(54, 60, 67, 0.25);
-  transform: scale(1);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 1px 1px 4px rgba(54, 60, 67, 0.25);
+  transform: scale(1.02);
 }
 
 .text-Alphabat {
   /* line-height: 0.2; */
   justify-content: center;
-  margin-top: 110px;
+  margin: 110px 0;
 }
+
 
 .text-Alphabat button {
   background-color: #1a73e8;
@@ -253,7 +272,7 @@
 
 @media (max-width: 600px) {
   .text-device p {
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 1.2;
     padding: 0 10px;
   }
@@ -272,21 +291,35 @@
 
 @media (max-width: 600px) {
   .support-text145 {
-    width: 75%;
-    margin: 24px auto 20px auto;
+     background-color: #f8f9fa;
+     /* background-color: green; */
+    width: 100%;
     height: auto;
-    min-height: 60px;
+    margin: 0;
+    padding: 22px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
   }
+
   .support-message145 p {
-    font-size: 24px;
+    font-size: 20px;
+    text-align:center;
   }
+
   .support-message145 span {
     line-height: 1.7;
-  }
-  .btn-support145 {
-    margin-top: 20px;
-    width: 100%;
     display: block;
-    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .btn-support145 {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 12px 0;
+    font-size: 16px;
+    white-space: normal;
+    text-align: center;
   }
 }

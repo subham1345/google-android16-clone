@@ -16,6 +16,16 @@
   color: #555;
 }
 
+.promo-card12 {
+  width: 400px;
+  height: 440px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  background: #fff;
+}
+
 .promo-button {
   background-color: #1a73e8;
   color: white;
@@ -34,24 +44,7 @@
   background-color: #204c81;
 }
 
-/* Responsive styles for phone view */
-@media (max-width: 600px) {
-  .promo-container12 h1 {
-    font-size: 1.5rem;
-  }
 
-  .promo-container12 p {
-    font-size: 1rem;
-    /* background-color: #1a73e8; */
-  }
-
-  .promo-button {
-    width: 80%;
-    font-size: 1rem;
-    height: 45px;
-    padding: 10px 0;
-  }
-}
 
 .card-container12 {
   display: flex;
@@ -62,25 +55,15 @@
   margin-bottom: 70px;
 }
 
-.promo-card12 {
-  width: 400px;
-  height: 440px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  text-align: left;
-  background: #fff;
-}
 
 .promo-card12 img {
   width: 100%;
   object-fit: cover;
 }
 
-.card-content12 {
-  /* background-color: #1a73e8; */
+.promo-card12:hover{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.219);
 }
-
 .card-content12 small {
   display: block;
   color: #888;
@@ -91,7 +74,6 @@
 }
 
 .card-content12 p {
-
   margin: 0 15px;
   color: #333;
   line-height: 1.5;
@@ -103,4 +85,38 @@
   text-decoration: none;
   float: right;
   margin: 0 15px 0 0;
+}
+
+
+@media (max-width: 600px) {
+  .promo-container12 h1 {
+    font-size: 1.5rem;
+  }
+  .promo-card12 {
+    width: 360px;
+    height: 385px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+    background: #fff;
+  }
+  .card-content12 p {
+    margin: 0 15px;
+    color: #333;
+    /* height: 200px; */
+    /* line-height: 1.5; */
+  }
+
+  .promo-container12 p {
+    font-size: 1.3rem;
+    /* background-color: #1a73e8; */
+  }
+
+  .promo-button {
+    width: 80%;
+    font-size: 1rem;
+    height: 45px;
+    padding: 10px 0;
+  }
 }

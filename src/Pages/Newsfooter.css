@@ -85,7 +85,7 @@ hr {
   color: #202124;
 }
 
-/* 🌐 Mobile Responsive Styles */
+
 @media (max-width: 768px) {
   .news-footer {
     padding: 40px 10px;

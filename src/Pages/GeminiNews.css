@@ -65,6 +65,7 @@
 }
 
 /* Responsive styles */
+
 @media (max-width: 768px) {
   .gemini-container {
     flex-direction: column;

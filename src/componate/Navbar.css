@@ -59,13 +59,16 @@
   text-decoration: none;
   color: #000000;
   font-size: 16px;
-  padding: 10px 4px;
+  padding: 20px 4px;
   position: relative;
   transition: color 0.2s;
+  /* background-color: yellow; */
+  outline: #1a73e8;
 }
 
 .nav-link:hover {
   color: #202124;
+  background-color: #fff;
 }
 
 .nav-link.active {
@@ -75,7 +78,7 @@
 
 @media screen and (max-width: 768px) {
   .navbar-logo {
-    display: flex; /* Show logo on smaller screens */
+    display: flex; 
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -83,7 +86,7 @@
 
   }
   .navbar-links {
-    display: none; /* Hide links by default */
+    display: none; 
   }
   .navbar-logo i{
   display: block;

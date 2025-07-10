@@ -29,6 +29,31 @@
   height: auto;
 }
 
+
+.g-blue {
+  font-size: 25px;
+  color: #4285f4;
+  margin-top: 20px;
+}
+.o-red {
+  font-size: 25px;
+  color: #db4437;
+}
+.o-yellow {
+  font-size: 25px;
+  color: #f4b400;
+}
+.l-green {
+  font-size: 25px;
+  color: #0f9d58;
+}
+.e-red {
+  font-size: 25px;
+  color: #db4437;
+}
+
+
+
 /* Sidebar List */
 .sidebar ul {
   list-style: none;
