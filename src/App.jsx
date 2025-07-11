@@ -12,8 +12,8 @@ function App() {
 return (
     <Router>
       <Navbar />
-      <main>
-        <Routes> 
+      <main style={{marginTop:"120px"}}>
+        <Routes>
           <Route path="/" element={<Navigate to="/about" />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />

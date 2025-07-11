@@ -56,7 +56,7 @@ const products = [
 const GoogleProducts = () => {
   return (
     <div className="google-products-container">
-      <div className="container">
+      <div className="container11">
         <p>Google products</p>
         <div className="filter-section">
           <label htmlFor="filter">Filter by:</label>

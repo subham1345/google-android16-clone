@@ -1,0 +1,44 @@
+.wrapper-containerr h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #202124;
+  line-height: 1.2;
+  
+}
+
+/* Responsive behavior */
+@media (max-width: 1024px) {
+  .wrapper-containerr h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper-containerr h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper-containerr h1 {
+    font-size: 22px;
+  }
+}
+
+.containerr {
+  width: 100%;
+
+}
+
+.wrapper-containerr {
+  margin: 10px auto; 
+  max-width: 1300px;
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+
+

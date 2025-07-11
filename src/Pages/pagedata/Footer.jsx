@@ -61,7 +61,7 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <div className="footer-columns">
+      <div className="footer-columns" >
         {footerLinks.map((section, index) => (
           <div key={index} className="footer-column">
             <h4 className="footer-title" onClick={() => toggleDropdown(index)}>

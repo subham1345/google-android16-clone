@@ -26,7 +26,7 @@ const SupportCards = () => {
 
  return (
     <div id="cards-container">
-      <div id="cards-wrapper">
+      <div id="cards-wrapper" >
         {cards.map((card, index) => (
           <div key={index} id="card">
             <div id="card-text">

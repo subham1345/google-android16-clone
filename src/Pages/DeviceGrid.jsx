@@ -15,14 +15,14 @@ const cards = [
   {
     type: "TABLETS",
     description: "Multitask, play games and discover new apps...",
-    icon: <FiTablet size={60} />, 
+    icon: <FiTablet size={60} />,
     bg: "bg-green",
     link: "#",
   },
   {
     type: "AUTO",
     description: "Navigate smoothly, communicate easily...",
-    icon: <FiMonitor size={60} />, 
+    icon: <FiMonitor size={60} />,
     bg: "bg-red",
     link: "#",
   },
@@ -43,34 +43,32 @@ const DeviceGrid = () => {
       <div className="device-grid">
         {cards.map((card, index) => {
           const sizeClass =
-            index === 0 || index === 3 ? "card-large" : "card-small"; 
+            index === 0 || index === 3 ? "card-large" : "card-small";
           return (
             <div
               className={`device-card ${card.bg} ${sizeClass}`}
               key={index}
-              style={
-                card.type === "WATCHES"
+              style={{
+                ...(card.type === "WATCHES"
                   ? { transform: "translateY(-190px)" }
-                  : {}
-              }
+                  : {}),
+                ...(card.type === "AUTO"
+                  ? { transform: "translateY(30px)" }
+                  : {}),
+              }}
             >
               {sizeClass === "card-small" ? (
                 <div className="device-icon">{card.icon}</div>
               ) : (
                 <div
                   style={{
-                     
                     height: "50vh",
-                    display: "flex", 
-                    justifyContent: "center", 
+                    display: "flex",
+                    justifyContent: "center",
                     alignItems: "center",
                   }}
                 >
-                  <img
-                    src={card.image}
-                    alt={card.type}
-                    className="deviceImg"
-                  />
+                  <img src={card.image} alt={card.type} className="deviceImg" />
                 </div>
               )}
 

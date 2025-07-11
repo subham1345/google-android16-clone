@@ -1,0 +1,46 @@
+.wrapper-container8 {
+  width: 100%;
+}
+
+.container8 {
+  margin: 10px auto;
+  max-width: 1335px;
+  width: 100%;
+  padding: 50px 20px;         /* ✅ add side padding for small screens */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.left h3 {
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+/* ✅ Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .left h3 {
+    font-size: 36px;
+  }
+
+  .container8 {
+    padding: 30px 16px;
+  }
+
+  .left p {
+    font-size: 18px !important; /* override inline style */
+  }
+}
+
+@media (max-width: 480px) {
+  .left h3 {
+    font-size: 28px;
+  }
+
+  .left p {
+    font-size: 16px !important;
+  }
+}

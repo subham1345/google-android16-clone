@@ -1,26 +1,28 @@
-/* html, body, #root {
-  height: 100%;
-  width: 100%;
-} */
+.text-container1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 45px;
+  margin: 60px 0px 60px 0px;
+}
 
-/* .page-layout {
-  display: flex;
-  height: 140vh;
-  width: 95vw;
-  gap: 60px;
-  padding: 20px;
-  margin: 10px 40px 10px 40px;
-  background-color: blue;
-} */
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .text-container1 {
+    font-size: 28px;
+    margin: 32px 40px;
+    width: 80%;
+  }
+}
 
 .page-layout {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   gap: 60px;
-  padding: 20px;
+  /* padding: 20px; */
+  max-width: 95%;
   width: 100%;
-  background-color: blue;
-  box-sizing: border-box;
+  /* background-color: blue; */
+  /* box-sizing: border-box; */
   overflow-x: hidden; /* optional, just to suppress scrollbar */
 }
 
@@ -47,6 +49,7 @@
 
 .card-details {
   padding: 20px;
+  /* background-color: aquamarine; */
 }
 .card-details h6 {
   font-size: 24px;
@@ -54,12 +57,6 @@
   width: 250px;
   font-weight: 100;
 }
-/* .card-details p{
-  font-size: 16px;
-  color: #5f6368;
-  width: 300px;
-  line-height: 1.5;
-} */
 
 #circle-to-search {
   font-weight: 100;
