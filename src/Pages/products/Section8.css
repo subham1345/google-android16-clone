@@ -6,7 +6,7 @@
   margin: 10px auto;
   max-width: 1335px;
   width: 100%;
-  padding: 50px 20px;         /* ✅ add side padding for small screens */
+  padding: 50px 20px;   
   text-align: center;
   display: flex;
   flex-direction: column;
