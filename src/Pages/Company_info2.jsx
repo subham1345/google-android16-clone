@@ -48,7 +48,7 @@ const Company_info2 = () => {
               <img src={card.image} alt={card.category} />
               <div className="card-content">
                 <small>{card.category}</small>
-                <p style={{fontWeight:"100"}}>{card.description}</p>
+                <p style={{ fontWeight: "100" }}>{card.description}</p>
                 <a href={card.link} target="_blank" rel="noopener noreferrer">
                   <FiExternalLink />
                 </a>
@@ -90,7 +90,12 @@ const Company_info2 = () => {
         </p>
       </div>
 
-      <DeviceGrid2 />
+      <div className="containerr">
+        <div className="wrapper-containerr" style={{ maxWidth: "1380px" }}>
+          <h1>All things Android</h1>
+          <DeviceGrid2 />
+        </div>
+      </div>
 
       <div className="search-info-container">
         <div className="image-container">
@@ -110,21 +115,25 @@ const Company_info2 = () => {
       </div>
 
       <div
-        className="text-device1"
+        className="containerr"
         style={{
           textAlign: "center",
           display: "flex",
           flexDirection: "column",
           gap: "20px",
-          padding:'20px 0'
+          // padding: "20px 0",
+          // backgroundColor: "yellow",
         }}
       >
-        <p style={{ fontSize: "48px" }}> Outreach and initiatives</p>
-        <p>
-          {" "}
-         Dive deeper into our efforts across sustainability, accessibility and community engagement.
-        </p>
-        <Company_info7 />
+        <div className="wrapper-containerr" style={{ maxWidth: "1420px", }}>
+          <p style={{ fontSize: "48px" }}> Outreach and initiatives</p>
+          <p>
+            {" "}
+            Dive deeper into our efforts across sustainability, accessibility
+            and community engagement.
+          </p>
+          <Company_info7 />
+        </div>
       </div>
 
       <div className="text-Alphabat">
@@ -148,9 +157,17 @@ const Company_info2 = () => {
         {/* <Outreach/> */}
       </div>
 
-
-      <div className="support-text145" >
-        <div className="support-message145" style={{padding: " 0 20px",display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
+      <div className="support-text145">
+        <div
+          className="support-message145"
+          style={{
+            padding: " 0 20px",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <p>
             Get the latest news from Google in your inbox
             <br />
