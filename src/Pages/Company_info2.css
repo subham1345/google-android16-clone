@@ -209,8 +209,8 @@
   height: 130px;
   width: 70%;
   margin: 210px;
-   /* margin-bottom: 120px; */
-   margin-top: 100px;
+  /* margin-bottom: 120px; */
+  margin-top: 100px;
   background-color: #f8f9fa;
   border-radius: 5px;
 }
@@ -253,7 +253,10 @@
   justify-content: center;
   margin: 110px 0;
 }
-
+.text-Alphabat .p1 {
+  text-align: center;
+  font-size: 48px;
+}
 
 .text-Alphabat button {
   background-color: #1a73e8;
@@ -281,6 +284,11 @@
     line-height: 1.2;
     text-align: center;
   }
+
+  .text-Alphabat .p1 {
+    text-align: center;
+    font-size: 35px;
+  }
   .text-Alphabat button {
     width: 80%;
     font-size: 1rem;
@@ -291,8 +299,8 @@
 
 @media (max-width: 600px) {
   .support-text145 {
-     background-color: #f8f9fa;
-     /* background-color: green; */
+    background-color: #f8f9fa;
+    /* background-color: green; */
     width: 100%;
     height: auto;
     margin: 0;
@@ -304,7 +312,7 @@
 
   .support-message145 p {
     font-size: 20px;
-    text-align:center;
+    text-align: center;
   }
 
   .support-message145 span {

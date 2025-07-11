@@ -32,7 +32,7 @@ const cards = [
   {
     type: "WATCHES",
     description:
-      " From protecting users to expanding opportunity, learn more about our values and priorities.",
+      " From protecting users to expanding opportunity, learn more about our values.",
     image:
       "https://www.gstatic.com/marketing-cms/assets/images/84/6e/b176dba14eba83ca5f373928cbf8/about-companyinfo-whywedowhatwedo.png=n-w780-h438-fcrop64=1,0000003dffffffc3-rw",
     bg: "bg-yellow",

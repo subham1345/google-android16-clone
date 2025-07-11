@@ -6,6 +6,7 @@
   background-color: #f8f9fa;
   /* background-color: yellow; */
   /* gap: 0px; */
+  margin:25px 0px;
 }
 
 @media (max-width: 600px) {

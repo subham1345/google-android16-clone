@@ -5,6 +5,7 @@
   text-align: center;
   color: #202124;
   line-height: 1.2;
+
   
 }
 
@@ -29,14 +30,15 @@
 
 .containerr {
   width: 100%;
-
+  /* background-color: green; */
+ padding: 50px 0px;
 }
 
 .wrapper-containerr {
   margin: 10px auto; 
   max-width: 1300px;
   width: 100%;
-
+  
   box-sizing: border-box;
 }
 

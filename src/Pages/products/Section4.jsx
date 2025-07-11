@@ -15,17 +15,20 @@ const Section4 = () => {
     >
       <div
         style={{
-          // backgroundColor: "green",
+          // backgroundColor: "blue",
           margin: "0 auto",
           maxWidth: "1335px",
           // padding: "0 16px",.
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
+          
         }}
       >
         <div className="text-container1">
-          <h4 style={{fontWeight:"100"}}>New ways to learn, explore and create</h4>
+          <h4 style={{ fontWeight: "100" }}>
+            New ways to learn, explore and create
+          </h4>
         </div>
 
         {/* <NewWaydata /> */}

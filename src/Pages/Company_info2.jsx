@@ -137,7 +137,7 @@ const Company_info2 = () => {
       </div>
 
       <div className="text-Alphabat">
-        <p style={{ textAlign: "center", fontSize: "48px" }}>
+        <p  className="p1">
           Alphabet Investor Relations
         </p>
         <p
