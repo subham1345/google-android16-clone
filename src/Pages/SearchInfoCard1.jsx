@@ -60,7 +60,7 @@ const SearchInfoCard1 = () => {
         </div>
       </div>
 
-      <div className="support-text1">
+      <div className="support-text1" >
         <div
           className="support-message1"
           style={{
@@ -69,6 +69,7 @@ const SearchInfoCard1 = () => {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
+           
           }}
         >
           <p>

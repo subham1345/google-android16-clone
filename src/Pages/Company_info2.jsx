@@ -92,7 +92,7 @@ const Company_info2 = () => {
 
       <div className="containerr">
         <div className="wrapper-containerr" style={{ maxWidth: "1380px" }}>
-          <h1>All things Android</h1>
+          {/* <h1 style={{fontWeight:"100"}}>All things Android</h1> */}
           <DeviceGrid2 />
         </div>
       </div>

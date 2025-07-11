@@ -232,12 +232,13 @@
 }
 .support-text1 {
   display: flex;
+  justify-content: space-between;
   gap: 20px;
   height: 130px;
   width: 70%;
   margin: 210px;
-   /* margin-bottom: 120px; */
-   margin-top: 100px;
+   margin-bottom: 120px;
+   margin-top: 120px;
   background-color: #f8f9fa;
   border-radius: 5px;
 }
@@ -259,15 +260,20 @@
 .btn-support {
   background-color: #e8f0fe;
   color: #1967d2;
-  margin: 35px 20px;
-  padding: 14px 32px;
+  margin: 40px 20px;
+  padding: 20px 30px;
   border: none;
   border-radius: 28px;
   font-size: 18px;
+  font-weight: 200;
   cursor: pointer;
-  box-sizing: border-box;
-  white-space: nowrap;
+  /* box-sizing: border-box; */
+  /* white-space: nowrap; */
   transition: transform 0.2s, box-shadow 0.2s;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
 }
 
 .btn-support:hover {

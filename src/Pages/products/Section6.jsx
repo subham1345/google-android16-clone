@@ -42,7 +42,7 @@ const Section6 = () => {
   return (
     <div className="containerr">
       <div className="wrapper-containerr" >
-        <h1>All things Android</h1>
+        <h1 style={{fontWeight:"100"}}>All things Android</h1>
        {/* <div style={{backgroundColor:'yellow'}}> */}
          <DeviceGrid />
        {/* </div> */}

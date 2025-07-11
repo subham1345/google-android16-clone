@@ -25,7 +25,7 @@ const Section4 = () => {
         }}
       >
         <div className="text-container1">
-          <h4>New ways to learn, explore and create</h4>
+          <h4 style={{fontWeight:"100"}}>New ways to learn, explore and create</h4>
         </div>
 
         {/* <NewWaydata /> */}
